@@ -1,0 +1,159 @@
+/* === Windows 10 Fluent Style QSS === */
+
+QWidget {
+    background-color: #f3f3f3;
+    color: #1f1f1f;
+    font-family: "Segoe UI";
+    font-size: 10pt;
+}
+
+/* === Global Button Styling === */
+QPushButton {
+    background-color: #0078D7;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+QPushButton:hover {
+    background-color: #005a9e;
+}
+QPushButton:pressed {
+    background-color: #004578;
+}
+QPushButton#BackButton,
+QPushButton#ConnectButton,
+QPushButton#DisconnectButton,
+QPushButton#StartButton,
+QPushButton#PauseButton,
+QPushButton#ResumeButton,
+QPushButton#StopButton,
+QPushButton#InsertMarkerButton,
+QPushButton#InsertUnlabeledButton,
+QPushButton#DrowsinessButton,
+QPushButton#RecordButton,
+QPushButton#ContinueButton,
+QPushButton#ResetButton,
+QPushButton#SettingsButton,
+QPushButton#AddUserButton,
+QPushButton#SelectUserButton {
+    min-height: 32px;
+    font-size: 10pt;
+}
+
+/* === Labels === */
+QLabel#TitleLabel {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #0078D7;
+    padding: 10px 0;
+}
+QLabel#UserLabel,
+QLabel#SamplingLabel,
+QLabel#TimerLabel,
+QLabel#RateLabelLeft,
+QLabel#RateLabelRight,
+QLabel#SignalLabelLeft,
+QLabel#SignalLabelRight {
+    font-size: 10pt;
+    color: #666666;
+}
+
+/* === Text Inputs === */
+QTextEdit, QLineEdit {
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 6px;
+    border-radius: 3px;
+    font-size: 10pt;
+}
+QTextEdit#LogOutput {
+    min-height: 100px;
+}
+
+/* === LineEdits with object names === */
+QLineEdit#NameInput,
+QLineEdit#AnnotationInput {
+    padding: 8px;
+    font-size: 10pt;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* === ComboBoxes === */
+QComboBox,
+QComboBox#FormatCombo,
+QComboBox#MarkerCombo {
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 4px;
+    border-radius: 3px;
+    font-size: 10pt;
+}
+
+/* === Radio Buttons === */
+QRadioButton {
+    padding: 6px;
+    font-size: 10pt;
+}
+
+/* === Progress Bar === */
+QProgressBar,
+QProgressBar#ProgressBar {
+    height: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e1e1e1;
+}
+QProgressBar::chunk,
+QProgressBar#ProgressBar::chunk {
+    background-color: #0078D7;
+    width: 20px;
+}
+
+/* === Group Box (Drowsiness Plot Filters) === */
+QGroupBox#MethodBox {
+    font-weight: bold;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+QGroupBox#MethodBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 4px 0 4px;
+}
+
+
+/* === Discovery Page Specific === */
+QPushButton#ScanButton,
+QPushButton#UseKnownButton,
+QPushButton#ConnectButton {
+    min-height: 32px;
+    font-size: 10pt;
+}
+
+QListWidget#KnownList,
+QListWidget#ScanList {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: white;
+    font-size: 10pt;
+}
+
+QPushButton:checked {
+    background-color: #005a9e;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+QPushButton#DrowsinessButton,
+QPushButton#RecordButton,
+QPushButton#Feature_raw_fft,
+QPushButton#Feature_meditation,
+QPushButton#Feature_attention {
+    min-height: 40px;
+    font-size: 10pt;
+}

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+env/
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# PyQt / UI cache
+*.qrc
+*.ui~
+
+

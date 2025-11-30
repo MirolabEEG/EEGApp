@@ -1,0 +1,6 @@
+PyQt5
+bleak
+matplotlib
+numpy
+scipy
+pyedflib
