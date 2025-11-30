@@ -1,14 +1,13 @@
 # EEGApp
 
 A PyQt5‑based desktop application for real‑time EEG streaming,
-visualization, recording, calibration, and different mental states detection ---
+visualization, recording, and different mental states detection ---
 using Bluetooth Low Energy (BLE).
 
 ## Overview
 
 EEGApp lets you connect an EEG headset via BLE, visualize raw EEG
-signals (time‑domain and FFT), record EEG data, calibrate baseline
-thresholds, and run a real‑time different mental states monitor.\
+signals (time‑domain and FFT), record EEG data, and run a real‑time different mental states monitor.\
 It supports user management, configurable signal processing (filtering,
 downsampling, normalization), and modular pages.
 
@@ -19,7 +18,6 @@ downsampling, normalization), and modular pages.
 -   Configurable signal processing: band‑pass filter, notch filter,
     downsampling, normalization\
 -   EEG data recording (CSV format)\
--   Baseline calibration for personalized thresholds\
 -   Real‑time different mental states detection\
 -   Multi‑page GUI for user management, feature selection, calibration,
     monitoring
@@ -32,14 +30,13 @@ downsampling, normalization), and modular pages.
     ├── eeg_worker.py
     ├── style.qss
     ├── pages/
-    ├── calibrations/
     ├── .gitignore
     └── README.md
 
 ## Installation
 
 ``` bash
-git clone https://github.com/mirolabsepideh/EEGApp.git
+git clone https://github.com/MirolabEEG/EEGApp.git
 cd EEGApp
 pip install -r requirements.txt
 python main.py
@@ -52,6 +49,3 @@ python main.py
 -   bleak\
 -   numpy, scipy, matplotlib
 
-## License
-
-No license specified --- all rights reserved.
