@@ -44,7 +44,7 @@ python main.py
 
 ## Requirements
 
--   Python 3.9+
+-   Python 3.10+
 -   PyQt5\
 -   bleak\
 -   numpy, scipy, matplotlib
