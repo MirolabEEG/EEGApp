@@ -1,6 +1,6 @@
 import time
 import csv
-import pyedflib
+#import pyedflib
 import numpy as np
 import queue
 import threading
