@@ -1,6 +1,9 @@
-PyQt5
-bleak
-matplotlib
-numpy
-scipy
-pyedflib
+PyQt5==5.15.2
+bleak==0.22.3
+matplotlib==3.6.0
+numpy==1.26.4
+scipy==1.11.4
+pyedflib==0.1.40
+typing-extensions==4.9.0
+async-timeout==4.0.3
+bleak-winrt==1.2.0
